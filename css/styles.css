@@ -8,11 +8,13 @@
 }
 
 
-
+.col-lg-6 h1{
+    font-size: 1.6em;
+}
 .img-lomi{
     
-    width:400px;
-    height:400px;
+    width:500px;
+    height:500px;
     border-radius: 50%;
     text-align: center;
     margin: 10% 5%;
@@ -52,9 +54,7 @@
     margin-bottom: 5%;
     text-align: center;
 }
-.container-fluid{
-   
-}
+
 .testimonials{
     background-color:rgb(247, 159, 59) ;
    margin: auto;
@@ -147,7 +147,7 @@ font-weight: bolder;
   transition: .3s linear, color 0s, background-color 0s;
   outline: var(--b) solid #0000;
   outline-offset: .6em;
-  font-size: 16px;
+  font-size: 20px;
 
   border: 0;
 
@@ -155,6 +155,7 @@ font-weight: bolder;
   -webkit-user-select: none;
   touch-action: manipulation;
    margin:2% 10%;
+
 
 }
 
@@ -212,18 +213,19 @@ font-weight: bolder;
     margin-bottom: 0;
     margin-top: 5%;
    }
-   #features{
-    margin:10%;
+  
+   .images-feature{
+    height: 500px !important;
+    width: 500px;
+    margin:0;
+    padding: 0;
+
    }
    .button-89{
     margin-left: 8px;
     
    }
-   .welcome-h1{
-    text-align:justify;
-    margin: auto;
-    padding: 30px 10px;
-   }
+  
    #lomi{
     margin: 0;
     padding: 0;
@@ -259,8 +261,20 @@ font-weight: bolder;
     margin: auto;
    }
 
- 
+ .col-lg-3 img{
+    height: 400px;
+    width: 400px;
+ }
 
+ .col-lg-3 img:hover{
+    height: 500px;
+    width: 500px;
+ }
+
+ .col-lg-3 h3{
+    font-weight: bolder;
+    font-size: 2em;
+ }
 
   }
   
